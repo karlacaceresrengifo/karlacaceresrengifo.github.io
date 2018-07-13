@@ -1,0 +1,25 @@
+body{
+    margin:0px; 
+    padding-top: 140px;
+}
+.juego{
+ float: left;
+ width: 33.3333333333%;
+ opacity: 0.3;
+}
+.juego img{
+    width: 100%;
+    margin: 0px;
+
+}
+#control{
+    height: 20%;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: rgb(71, 71, 230);
+}
+#controls img{
+   width: 150px;
+   height: 70px;
+}
