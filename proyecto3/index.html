@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<script src="js/examen.js"></script>
+	<link rel="stylesheet" href="css/estilo.css">
+	<title>Cursos de verano KACER</title>
+</head>
+
+<body>
+	<div id="cabecera">
+		<div id="logo">
+			<br>
+		 <img src="imagenes/logotipo.png" width="300" height="100">
+		</div>
+		<div id="titulo">
+		 <h1>Cursos de verano</h1>
+	 </div>
+	</div>
+	<div id="centro">
+		<div id="central">
+			<br>
+			<p>Por fin los cursos que tanto se esperaban, reserva ya tu plaza contrátandolo: </p>
+			<form>
+				<fieldset id="datospersonales">
+					<legend>Datos personales</legend>
+					<span class="datos">Nombre:</span>
+					<input type="text" name="nombre" id="nombre" placeholder="Ej: Karla Cáceres..." class="barras">
+					<br>
+					<span id="respuestaNombre" class="error"></span>
+					<br>
+					<br>
+					<span class="datos">DNI/NIE:</span>
+					<input type="text" name="dni" id="dni" placeholder="Ej: 5254XXXXXXK" class="barras">
+					<br>
+					<span  class="error" id="respuestaDNI"></span>
+					<br>
+					<br>
+					<span class="datos">Año de nacimiento:</span>
+					<input type="number" name="anio" id="anionacer" placeholder="Ej: 1999" class="barras">
+					<br>
+					<span  class="error" id="respuestaANIO"></span>
+					<br>
+					<br>
+					<span class="datos">Número de teléfono:</span>
+					<input type="number" name="telefono" id="telefono" placeholder="Ej:(+34) 688 66 35 55" class="barras">
+					<br>
+					<span  class="error" id="respuestaTELEFONO"></span>
+					<br>
+					<br>
+					<span class="datos">Email:</span>
+					<input type="email" name="email" id="email" placeholder="Ej: ana2434@gmail.com"class="barras">
+					<br>
+					<span  class="error" id="respuestaEMAIL"></span>
+					<br>
+					<br>
+					<span class="datos">Preferencias de contacto:</span>
+					<input type="radio" name="contacto" id="telefone">Teléfono
+					<input type="radio" name="contacto" id="email1">Email
+					<input type="radio" name="contacto" id="correo">Correo Postal
+					<br>
+					<span class="error" id="respuestaPREFERENCIAS"></span>
+					<br>
+				</fieldset>
+				<br>
+				<br>
+				<br>
+				<br>
+				<fieldset id="selecciondecursos">
+					<legend>Seleccion de cursos</legend>
+					<table>
+						<tr>
+							<td>
+								<input type="checkbox" name="curso" id="html5">HTML5 - 300€
+								<br>
+					      <img src="imagenes/html.jpg" width="200" height="200"> 
+							</td>
+							<td>
+								<input type="checkbox" name="curso" id="css3">CSS3 - 200€
+								<br>
+					      <img src="imagenes/css.jpg" width="200" height="200"> 
+							</td>
+							<td>
+								<input type="checkbox" name="curso" id="java">Introducción a Javascript - 500€
+								<br>
+					      <img src="imagenes/javascript.png" width="200" height="200"> 
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<input type="checkbox" name="curso" id="avanzajava">Javascript anvanzada - 400€
+								<br>
+					      <img src="imagenes/avanza.jpg" width="200" height="200"> 
+							</td>
+							<td>
+								<input type="checkbox" name="curso" id="bootstrap">BOOTSTRAP - 200€
+								<br>
+					      <img src="imagenes/boot.png" width="200" height="200"> 
+							</td>
+							<td>
+								<input type="checkbox" name="curso" id="jquery">JQUERY - 300€
+								<br>
+					      <img src="imagenes/jquery.jpg" width="200" height="200"> 
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<input type="checkbox" name="curso" id="angular">Angular 5 - 800€
+								<br>
+					      <img src="imagenes/angular.jpg" width="200" height="200"> 
+							</td>
+							<td>
+								<span  class="error" id="respuesta2"></span>
+							</td>
+						</tr>
+					</table>
+				</fieldset>
+			</form>
+			
+			<br>
+			<input type="button" value="Contratar" onclick="contratar()"id="btn">
+			
+			<br>
+			<span id="respuesta"></span>
+			<br>
+			<span id="respuesta3"></span>
+			<br><br>
+		</div>
+	</div>
+	<div id="abajo"><h1>Programado por Karla Cáceres Rengifo </h1></div>
+</body>
+
+</html>

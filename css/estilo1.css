@@ -1,0 +1,20 @@
+
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+
+
+*{
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Orbitron', sans-serif;
+    color: antiquewhite;
+}
+body{
+    background-image: url("../imagenes/fondo1.jpg")
+}
+a{
+    margin: 50px;
+}
+h1{
+    font-size: 50px;
+}
+

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Karla House - Inicio</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<script type="text/javascript">
+		function vino1() {
+			var divdescripciontinto = document.getElementById("descripciontinto");
+			divdescripciontinto.innerHTML= "<h1>ALIÓN 2013 68,00 €</h1>Bodegas y viñedos Alión S.A.<br>España<br>Padilla del Duero-Peñafiel (Valladolid)<br>Tinto con 13 meses de barrica roble francés<br>14,5% volumen<br>Tempranillo<br>";
+		}
+		function vino2() {
+			var divdescripciontinto = document.getElementById("descripciontinto");
+			divdescripciontinto.innerHTML= "<h1>QUINCHA CORRAL 2000 92,00 €</h1>Mustiguillo<br>España<br>Utiel (Valencia)<br>16 meses barrica de roble francés<br>15% volumen<br>Bobal";
+		}
+		function vino3() {
+			var divdescripciontinto = document.getElementById("descripciontinto");
+			divdescripciontinto.innerHTML= "<h1>LA NIETA 2004 220,00 €</h1>Viñedos de Páganos S.L.<br>España<br>Laguardia (Álava)<br>18 meses crianza en barrica de roble francés<br>14,5% volumen<br>Tempranillo<br>";
+		}
+		function vino4() {
+			var divdescripciontinto = document.getElementById("descripciontinto");
+			divdescripciontinto.innerHTML= "<h1>REGINA VIDES 2003 308,00 €</h1>Hermanos Sastre S.L.<br>España<br><br>La Horra (Burgos)<br>18 meses barrica de roble francés<br>15% volumen<br>Tempranillo";
+		}
+        function limpiar1(){
+        	var divdescripciontinto= document.getElementById("descripciontinto");
+        	divdescripciontinto.innerHTML="";
+        }
+        //vino blanvo//
+
+
+        function vinoblanco1() {
+			var divdescripcionblanco = document.getElementById("descripcionblanco");
+			divdescripcionblanco.innerHTML= "<h1>QUINCHA CORRAL 2000 92,00 €</h1>Mustiguillo<br>España<br>Utiel (Valencia)<br>16 meses barrica de roble francés<br>15% volumen<br>Bobal";
+		}
+		function vinoblanco2() {
+			var divdescripcionblanco = document.getElementById("descripcionblanco");
+			divdescripcionblanco.innerHTML= "<h1>LA NIETA 2004 220,00 €</h1>Viñedos de Páganos S.L.<br>España<br>Laguardia (Álava)<br>18 meses crianza en barrica de roble francés<br>14,5% volumen<br>Tempranillo<br>";
+		}
+		function vinoblanco3() {
+			var divdescripcionblanco = document.getElementById("descripcionblanco");
+			divdescripcionblanco.innerHTML= "<h1>REGINA VIDES 2003 308,00 €</h1>Hermanos Sastre S.L.<br>España<br><br>La Horra (Burgos)<br>18 meses barrica de roble francés<br>15% volumen<br>Tempranillo";
+		}
+        function limpiar2(){
+        	var divdescripcionblanco= document.getElementById("descripcionblanco");
+        	divdescripcionblanco.innerHTML="";
+        }
+        function espumoso1() {
+			var divdescripcionespumoso = document.getElementById("descripcionespumoso");
+			divdescripcionespumoso.innerHTML= "<h1>QUINCHA CORRAL 2000 92,00 €</h1>Mustiguillo<br>España<br>Utiel (Valencia)<br>16 meses barrica de roble francés<br>15% volumen<br>Bobal";
+		}
+		function espumoso2() {
+			var divdescripcionespumoso = document.getElementById("descripcionespumoso");
+			divdescripcionespumoso.innerHTML= "<h1>LA NIETA 2004 220,00 €</h1>Viñedos de Páganos S.L.<br>España<br>Laguardia (Álava)<br>18 meses crianza en barrica de roble francés<br>14,5% volumen<br>Tempranillo<br>";
+		}
+		function espumoso3() {
+			var divdescripcionespumoso = document.getElementById("descripcionespumoso");
+			divdescripcionespumoso.innerHTML= "<h1>REGINA VIDES 2003 308,00 €</h1>Hermanos Sastre S.L.<br>España<br><br>La Horra (Burgos)<br>18 meses barrica de roble francés<br>15% volumen<br>Tempranillo";
+		}
+        function limpiar3(){
+        	var divdescripcionespumoso= document.getElementById("descripcionespumoso");
+        	divdescripcionespumoso.innerHTML="";
+        }
+		
+		
+
+	</script>
+</head>
+<body>
+<!-- Cabecera-->
+
+<div id="cabecera">
+	<!-- CabeceraA-->
+	<div id="cabeceraA">
+		<img src="imagenes/logotipo.png" id="logo">
+	</div>
+	<!-- CabeceraB-->
+	<div id="cabeceraB">
+		<ul id="menu">
+			<a href="reserva.html"><li>Reserva</li></a>
+			<a href="ubicacion.html"><li>Ubicación</li></a>
+            <a href="vino.html"><li>Vinos</li></a>
+            <a href="carta.html"><li>Carta</li></a>
+            <a href="index.html"><li>Inicio</li></a>
+		</ul>
+	</div>
+</div>
+
+ <!-- VINOS-->
+<div id="divCentral">
+	   <h1>Vinos</h1><br>
+	<div id="vinotinto">
+		<h2>Tintos</h2><br>
+		<img src="imagenes/vino1.png" width="100" height="200" onmouseover="vino1()" onmouseleave="limpiar1()">
+        <img src="imagenes/vino2.png" width="50" height="200" onmouseover="vino1()" onmouseleave="limpiar1()">
+        <img src="imagenes/vino3.png" width="50" height="200"onmouseover="vino1()" onmouseleave="limpiar1()">
+        <img src="imagenes/vino4.png" width="100" height="215"onmouseover="vino1()" onmouseleave="limpiar1()">        
+	</div>
+	<div id="descripciontinto">aqui va la descripcion
+	</div>
+
+<br><br>
+
+	<div id="vinoblanco">
+		<h2>Blancos</h2><br>
+		<img src="imagenes/vinoblanco1.png" width="100" height="200"onmouseover="vinoblanco1()" onmouseleave="limpiar2()">
+        <img src="imagenes/vinoblanco2.png" width="180" height="200"onmouseover="vinoblanco2()" onmouseleave="limpiar2()">
+        <img src="imagenes/vinoblanco3.png" width="100" height="200"onmouseover="vinoblanco3()" onmouseleave="limpiar2()">   
+	</div>
+	<div id="descripcionblanco">aqui va la descripcion
+	</div>
+<br><br>
+<h1>Espumosos</h1><br>
+	<div id="espumosos">
+		<img src="imagenes/espumoso1.png" width="200" height="200"onmouseover="espumoso1()" onmouseleave="limpiar3()">
+        <img src="imagenes/espumoso2.png" width="180" height="200"onmouseover="espumoso2()" onmouseleave="limpiar3()">
+        <img src="imagenes/espumoso3.png" width="140" height="220"onmouseover="espumoso3()" onmouseleave="limpiar3()">   
+	</div>
+	<div id="descripcionespumoso">aqui va la descripcion
+	</div>
+
+<br><br><br><br><br><br>
+
+
+
+
+
+
+
+</div>
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="css/estilo.css">
+	<script src="js/5.js"></script>
+	<title>Document</title>
+</head>
+<body>
+	<div id="central">
+	 <H1>Tienda de ocio</H1>
+	 <p>Escoga uno de cada uno:</p>
+	<table id="tabla" >
+	
+	<tr>
+		<td>
+			<h2>Prison break</h2><br>
+			<img src="imagenes/serie1.jpg" width="300" height="300"><br>
+			<input type="checkbox" name="serie" id="serie1"> <span>Precio: 60 €</span>
+		</td>
+		<td>
+			<h2>Homeland</h2><br>
+			<img src="imagenes/serie2.jpg" width="300" heigtht="300"><br>
+			<input type="checkbox" name="serie" id="serie2"><span>Precio: 80 €</span>
+		</td>
+		<td>
+			<h2>MR Robot</h2><br>
+			<img src="imagenes/serie3.jpg" width="300" height="300"><br>
+			<input type="checkbox" name="serie" id="serie3"><span>Precio: 90 €</span>
+		</td>
+	</tr>
+	<br><br><br>
+			
+			<tr>
+				<td><!--Inserto la imagen pelicula 1-->
+					<h2> Harry Potter</h2>
+					<img src="imagenes/pelicuala1.jpg" alt="Harry Potter" width="300" height="300"><br>
+					<input type="checkbox" id="pelicula1">
+					<span>Precio = 10.99€</span>
+				</td>
+				<td><!--Inserto la imagen pelicula 2-->
+					<h2> Diario Noa</h2>
+					<img src="imagenes/pelicula2.jpg" alt="Diario de Noa" width="300" height="300"><br>
+					<input type="checkbox" id="pelicula2">
+					<span>Precio = 9.99€</span>
+				</td>
+				<td><!--Inserto la imagen pelicula 3-->
+						<h2>Serie Divergente Leal</h2>
+					<img src="imagenes/pelicula3.jpg" alt="Serie Divergente Leal" width="300" height="300"><br>
+					<input type="checkbox" id="pelicula3">
+					<span>Precio = 7.99€</span>
+				</td><br>
+			</tr>
+			<br>	
+	<tr>
+		<td><h2>Beyond two souls PS4</h2><br><br>
+			<img src="imagenes/juego1.jpg" width="300" height="300"><br><br>
+			<input type="checkbox" name="juego" id="juego1"> <span>Precio = 34.90€</span>
+		</td>
+
+		<td><h2>Resident evil 2 Remake PS4</h2><br><br>
+			<img src="imagenes/juego2.jpg" width="300" height="300"><br><br>
+			<input type="checkbox" name="juego" id="juego2"><span>Precio = 54.95€</span></td>
+		<td><h2>Mortal Kombat PS4</h2><br><br>
+			<img src="imagenes/juego3.jpg" width="300" height="300"><br><br>
+			<input type="checkbox" name="juego" id="juego3"><span>Precio = 23.90€</span>
+		</td>
+	</tr>
+  </table>
+  <br><br>
+  <input type="button" value="Calcular" onclick="calcular()" id="btn">
+  </div>
+</body>
+</html>

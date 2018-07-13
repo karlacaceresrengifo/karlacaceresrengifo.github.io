@@ -1,0 +1,147 @@
+*{
+    font-family: "lucida sans unicode", "lucida grande", sans-serif;
+    color: #151515;
+
+text-align: center;
+letter-spacing: 2pt;
+word-spacing: -3pt;
+}
+body{
+    background-image: url("../imagenes/fondo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#cabecera{
+ margin: auto;
+ background-image: url("../imagenes/cabecera1.jpg");
+ background-repeat: no-repeat;
+ background-size: contain;
+ background-size: cover;
+ width: 70%;
+ height: 180px;
+ text-align: center;
+ top: 0px;
+ color: aliceblue;
+}
+#titulo{
+   
+float: right;
+padding-top:0px ;
+padding-right: 40px;
+font-size: 30px;
+color: #151515;
+font-weight: 0px;
+}
+#logo{
+   float: left;
+   padding: 10px;
+}
+
+#centro{
+    margin-top: 50px;
+    margin: auto;
+  
+}
+#central{
+	margin-top: 20px;
+    
+    color: aliceblue;
+   margin-top: 50px;
+   width: 70%;
+   margin: auto;
+  background-image: url("../imagenes/fondo1.jpg");
+   text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+table{
+   margin: auto;
+}
+
+legend{
+    font-size: 30px;
+}
+   
+}
+#btn {
+  background: #16593f;
+  background-image: -webkit-linear-gradient(top, #16593f, #386344);
+  background-image: -moz-linear-gradient(top, #16593f, #386344);
+  background-image: -ms-linear-gradient(top, #16593f, #386344);
+  background-image: -o-linear-gradient(top, #16593f, #386344);
+  background-image: linear-gradient(to bottom, #16593f, #386344);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 60px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+#btn:hover {
+  background: #106e21;
+  background-image: -webkit-linear-gradient(top, #106e21, #6cb52b);
+  background-image: -moz-linear-gradient(top, #106e21, #6cb52b);
+  background-image: -ms-linear-gradient(top, #106e21, #6cb52b);
+  background-image: -o-linear-gradient(top, #106e21, #6cb52b);
+  background-image: linear-gradient(to bottom, #106e21, #6cb52b);
+  text-decoration: none;
+}
+  .datos{
+  	float: left;
+  }
+  .barras{
+  	background: #eaeaea;
+    float: right;
+    border: none;
+    padding: 1.5%;
+    color: #555;
+    padding-right: 200px;
+    }
+    #selecciondecursos{
+    	margin: auto;
+    width: 70%;
+    border-radius: 20px;
+
+    }
+    #datospersonales{
+    	margin: auto;
+    width: 70%;
+    border-radius: 20px;
+
+    }
+
+ #respuesta{
+ 	background-color:#eaeaea;
+    	color: #B40404;
+    	font-weight:20px;
+    	font-size: 20px;
+ }
+
+    .error{
+    	background-color:#eaeaea;
+    	color: #B40404;
+    	font-weight:20px;
+    	float: left;
+    }
+
+    #respuesta3{
+    	background-color:#eaeaea;
+    	color: #B40404;
+    	font-weight:20px;
+    	
+    }
+
+  #abajo{
+ margin: auto;
+ background-color: #088A29;
+ width: 70%;
+ height: 80px;
+ text-align: center;
+ top: 0px;
+ color:#BCF5A9; 
+ font-size: 15px;
+    }

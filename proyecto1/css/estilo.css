@@ -1,0 +1,106 @@
+*{
+	font-family: 'Fira Sans', sans-serif;
+	font-weight: 550px;
+
+}
+
+body{
+	background-image: url("../imagenes/fondo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/*cabecera total*/
+#cabecera{
+	 width: 100%;
+	 background: #272828;
+	 color: white;
+	 height: 130px;
+	 position: fixed;
+	 top:0px;
+	 opacity: 0.8;
+}
+#cabeceraA{
+	float: left;
+	width: 50%;
+}
+#cabeceraB{
+	float: right;
+	width: 100%;
+}
+#logo{
+    padding-top: 20px;
+	position: fixed;
+}
+
+ul{
+	list-style-type:  none; 
+}
+li{
+	float: right;
+	padding:  25px;
+	margin-left: 10px;
+}
+a{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+}
+#menu{
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: 700;
+	padding-top: 50px;
+	float: right;
+}
+li:hover{
+	color: #F0B041;
+}
+#divCentral{
+	background-image: url("../imagenes/fondodivcentral.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+	margin-top: 130px;
+	width: 1000px;
+	margin-left: 500px;
+	text-align: center;
+	padding: 10px;
+	
+	color: #B8BABE;
+
+}
+#galeria{
+	margin: auto;
+    border-radius: 15px;
+    border-width: 50px;
+    border: 5px;
+}
+img{
+	border-radius: 15px;
+    border-width: 50px;
+    border: 5px;
+}
+	
+/*menu*/
+
+#A{
+	width: 50%;
+	float: left;
+
+}
+#B{
+	width: 50%;
+	float: right;
+	margin-top: 110px;
+}
+/*vinos*/
+#vinotinto img{
+	margin: 50px;
+
+}
+#vinotinto h1{
+	font-size: 50px;
+
+}
+iframe{
+	border-radius: 15px;
+}

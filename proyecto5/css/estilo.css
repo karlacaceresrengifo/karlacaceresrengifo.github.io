@@ -1,0 +1,54 @@
+*{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+#central{
+    width: 100%;
+    
+}
+#tabla{
+    margin: auto;
+    padding: 50px;
+    background-image: url("../imagenes/fondo1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(174, 180, 190);
+}
+body{ background-image: url("../imagenes/fondo2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;}
+h1{
+  color: rgb(174, 180, 190);
+  font-size: 100px;
+ }
+ p{
+    color: rgb(174, 180, 190);
+    font-size: 50px;
+ }
+
+ #btn {
+    background: #31424d;
+    background-image: -webkit-linear-gradient(top, #31424d, #0068a8);
+    background-image: -moz-linear-gradient(top, #31424d, #0068a8);
+    background-image: -ms-linear-gradient(top, #31424d, #0068a8);
+    background-image: -o-linear-gradient(top, #31424d, #0068a8);
+    background-image: linear-gradient(to bottom, #31424d, #0068a8);
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 36px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  #btn:hover {
+    background: #06507d;
+    background-image: -webkit-linear-gradient(top, #06507d, #3498db);
+    background-image: -moz-linear-gradient(top, #06507d, #3498db);
+    background-image: -ms-linear-gradient(top, #06507d, #3498db);
+    background-image: -o-linear-gradient(top, #06507d, #3498db);
+    background-image: linear-gradient(to bottom, #06507d, #3498db);
+    text-decoration: none;
+  }
